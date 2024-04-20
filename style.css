@@ -3,10 +3,78 @@
     padding: 0;
     box-sizing: border-box;
     color: #fff;
+   font-family: 'neue-haas-grotesk-display', sans-serif;
 }
 html,body{
     height: 100%;
     width: 100%;
+}
+nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 2vw 10.4vw;
+    justify-content: space-between;
+    font-family: 'NeueHaasDisplayMediu';
+    font-family: 'neue-haas-grotesk-display', sans-serif;
+
+}
+.nav-part2{
+    display: flex;
+    gap: 2vw;
+}
+.nav-part2 h4{
+    font-size: 0.7vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+nav:hover #nav-bottom{
+    height: 170%;
+    bottom: -170%;
+    background-color: #111;
+}
+#nav-bottom{
+    height: 0%;
+    position: absolute;
+    width: 80%;
+    bottom: 0%;
+    border-bottom: 1px solid #dadada;
+    transition: all ease 0.65s;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2vw 8vw;
+    padding-left: 14.5vw;
+}
+.bottom-div{
+    margin-top: 2vw;
+}
+.bottom-div h5{
+    margin-bottom: 0.6vw;
+    overflow: hidden;
+}
+
+.bottom-div h5 span{
+    font-weight: 400;
+    font-size: 1vw;
+    display: inline-block;
+    opacity: 0;
+}
+nav button{
+    background-color: #0CA34E;
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    border-radius: 50px;
+    border: none;
+    font-size: 0.7vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+nav button svg{
+    height: 1vw;
+    margin-left: 2vw;
 }
 #page1{
     height: 100vh;
@@ -19,10 +87,13 @@ html,body{
     
 }
 #page1 h1{
-    font-size: 8.5vw;
+    font-size: 8vw;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 650;
     line-height: 8.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
 }
 #page1 h1 svg{
     height: 6.5vw;
