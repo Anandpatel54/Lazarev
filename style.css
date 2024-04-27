@@ -176,4 +176,99 @@ nav button svg {
   height: 100vh;
   width: 100%;
   background-color: #111;
+  position: relative;
+  padding: 0vw 10.5vw;
+  padding-bottom: 8vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #333;
+}
+#page2-left {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 3vw 0;
+}
+#page2-left p {
+  font-size: 1vw;
+}
+#page2-left h5 {
+  font-size: 1.1vw;
+  width: 76%;
+  font-weight: 300;
+}
+#page2-right {
+  height: 100%;
+  width: 50%;
+}
+.right-elem {
+  position: relative;
+  padding-top: 2vw;
+  padding-bottom: 5vw;
+  border-bottom: 1px solid #333;
+}
+.right-elem h2 {
+  font-size: 1.4vw;
+  font-weight: 400;
+  z-index: 2;
+  position: relative;
+}
+.right-elem img {
+  height: 7vw;
+  width: 7vw;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  opacity: 0;
+  scale: 0;
+}
+#page3 {
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+  background-image: url(/images/image5.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page3-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1vw;
+}
+.page3-center .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3vw;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+i {
+  color: #000;
+  font-size: 3vw;
+}
+.page3-center h5 {
+  font-size: 0.8vw;
+  padding: 12px 26px 10px 26px;
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  border-radius: 50px;
+  margin-top: 0.5vw;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+.page3-center:hover h5 {
+  opacity: 1;
+  transform: translateY(0%);
 }
