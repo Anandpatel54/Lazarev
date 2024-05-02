@@ -357,7 +357,75 @@ i {
   color: #A3A3A3;
 }
 #page6 {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%; 
   background-color: #FFFFFF;
+  position: relative;
+  padding-bottom: 13vh;
+}
+.section{
+  width: 100%;
+  height: 72vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13vh 10vw;
+  padding-bottom: 0;
+}
+.sec-left{
+  height: 100%;
+  width: 30%;
+  border-top: 2px solid #000;
+  padding-top: 3vh;
+  position: relative;
+}
+.sec-left p{
+  color: #000;
+  margin-top: 8vh;
+  font-size: 1.3vw;
+  width: 100%;
+}
+.sec-left h2{
+  font-size: 2vw;
+  font-weight: 500;
+  color: #000;
+}
+.sec-left img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.sec-left video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity ease 0.1s;
+  opacity: 0;
+}
+.sec-right{
+  height: 100%;
+  width: 60%;
+  background-color: rgb(181, 153, 53);
+  position: relative;
+
+}
+.sec-right img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+.sec-right video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity ease 0.1s;
+  opacity: 0;
 }
