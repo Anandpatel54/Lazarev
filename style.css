@@ -273,7 +273,7 @@ i {
   opacity: 1;
   transform: translateY(0%);
 }
-#page3 video{
+#page3 video {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -286,33 +286,33 @@ i {
 #page4 {
   height: 100vh;
   width: 100%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   position: relative;
   gap: 2vw;
 }
-#page4-left{
+#page4-left {
   height: 100%;
   width: 45%;
   padding: 0vw 10.5vw;
 }
-#page4-right{
+#page4-right {
   height: 100%;
   width: 55%;
   margin-left: 5vw;
 }
-#page4-left h1{
+#page4-left h1 {
   width: 100%;
   color: #000;
   margin-top: 6vw;
   font-size: 2.8vw;
 }
-#page4-right h1{
-  color: #A3A3A3;
+#page4-right h1 {
+  color: #a3a3a3;
   margin-top: 5vw;
   font-size: 2.1vw;
 }
-#page4-right p{
+#page4-right p {
   width: 100%;
   color: #000000ee;
   margin-top: 2vw;
@@ -321,7 +321,7 @@ i {
 }
 #page5 {
   height: 100vh;
-  width: 100%; 
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -333,37 +333,36 @@ i {
   height: 20vw;
   width: 30vw;
   background-color: rgb(245, 245, 245);
-
 }
-.page5-elem h1{
+.page5-elem h1 {
   font-size: 3.4vw;
   font-weight: 400;
   margin-top: 2vw;
   margin-left: 2vw;
   color: #000;
 }
-.page5-elem p{
+.page5-elem p {
   font-size: 1.1vw;
   font-weight: 400;
   margin-top: 1vw;
   margin-left: 2vw;
   color: #000;
 }
-.page5-elem h2{
+.page5-elem h2 {
   font-size: 1.1vw;
   font-weight: 400;
   margin-top: 8vw;
   margin-left: 2vw;
-  color: #A3A3A3;
+  color: #a3a3a3;
 }
 #page6 {
   min-height: 100vh;
-  width: 100%; 
-  background-color: #FFFFFF;
+  width: 100%;
+  background-color: #ffffff;
   position: relative;
   padding-bottom: 13vh;
 }
-.section{
+.section {
   width: 100%;
   height: 72vh;
   display: flex;
@@ -372,31 +371,30 @@ i {
   padding: 13vh 10vw;
   padding-bottom: 0;
 }
-.sec-left{
+.sec-left {
   height: 100%;
   width: 30%;
   border-top: 2px solid #000;
   padding-top: 3vh;
   position: relative;
 }
-.sec-left p{
+.sec-left p {
   color: #000;
   margin-top: 8vh;
   font-size: 1.3vw;
   width: 100%;
 }
-.sec-left h2{
+.sec-left h2 {
   font-size: 2vw;
   font-weight: 500;
   color: #000;
 }
-.sec-left img{
+.sec-left img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-
 }
-.sec-left video{
+.sec-left video {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -406,20 +404,18 @@ i {
   transition: opacity ease 0.1s;
   opacity: 0;
 }
-.sec-right{
+.sec-right {
   height: 100%;
   width: 60%;
   background-color: rgb(181, 153, 53);
   position: relative;
-
 }
-.sec-right img{
+.sec-right img {
   height: 100%;
   width: 100%;
   object-fit: cover;
-
 }
-.sec-right video{
+.sec-right video {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -429,94 +425,105 @@ i {
   transition: opacity ease 0.1s;
   opacity: 0;
 }
-#page7{
+#page7 {
   min-height: 100vh;
-  width: 100%;
   background-color: #111;
+  width: 100%;
   position: relative;
+  padding: 5vh 10.5vw;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 5vh 10.5vh;
 }
-#page7 button{
-  background-color: #0BA34E;
-  padding: 1vw 2.5vw;
-  font-size: 1vw;
+
+#page7 button {
+  background-color: #0ba34e;
+  padding: 0.9vw 2.5vw;
   font-weight: 600;
+  font-size: 1vw;
   border-radius: 50px;
   border: none;
+  position: sticky;
+  top: 15%;
 }
-#page7-right{
+
+#page7-right {
   width: 70%;
 }
-#page7-right>p{
+
+#page7-right > p {
   font-size: 2.1vw;
-  line-height: 2.6vw;
-  font-weight: 300;
 }
-#page7-right>p span{
+
+#page7-right > p span {
+  /* background-color: red; */
   width: 15vw;
   display: inline-block;
-  font-size: 1vw;
-  font-weight: 200;
 }
-#page7-content{
-  width: 100%;
-  margin-top: 5vw;
-  padding: 5vh 0;
-  border-top: 2px solid #fff;
 
+#page7-content {
+  width: 100%;
+  /* background-color: red; */
+  margin-top: 5vh;
+  padding: 5vh 0;
 }
-#page7-content>h1{
+
+#page7-content h1 {
   font-size: 3vw;
-  cursor: pointer;
- }
- #page7-content #glex{
+  font-weight: 500;
+}
+
+#page7-content #flex {
   display: flex;
   margin-top: 4vh;
   margin-bottom: 4vh;
- }
- #page7-content #glex h4{
+}
+
+#page7-content #flex h4 {
   border-radius: 50px;
-  border: 1px solid #9b9898;
+  border: 1px solid #fff;
   padding: 10px 20px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.8vw;
-  cursor: pointer;
- }
- .page7-elem{
+}
+
+.page7-elem {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  /* background-color: red; */
+  /* padding: 2vh 0; */
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
   padding-top: 3vh;
   padding-bottom: 9vh;
-  position: relative;
   overflow: hidden;
-  border-top: 1px solid #403f3f;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
- }
- .page7-elem p{
+  border-top: 1px solid #333;
+  position: relative;
+}
+
+.page7-elem p {
   width: 55%;
-  font-size: 0.9vw;
+  font-size: 0.8vw;
   position: relative;
   z-index: 8;
- }
- .page7-elem h3{
-  font-size: 1.5vw;
+}
+
+.page7-elem h3 {
+  font-size: 1.6vw;
   font-weight: 400;
   position: relative;
-  z-index: 8;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
- }
- .page7-elem i{
-  color: #fff;
-  font-size: 1.8vw;
+  z-index: 8;
+}
+
+.page7-elem i {
+  font-size: 1vw;
   position: relative;
-  z-index: 8;
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
- }
- .over{
+  z-index: 8;
+}
+
+.over {
   height: 100%;
   width: 100%;
   background-color: #222;
@@ -524,18 +531,39 @@ i {
   top: 0;
   transform: translateY(-100%);
   opacity: 0;
+  /* display: none; */
   transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
- }
- .page7-elem:hover h3{
+}
+
+.page7-elem:hover h3 {
   padding-left: 1vw;
- }
- .page7-elem:hover i{
+}
+
+.page7-elem:hover i {
   padding-right: 1vw;
- }
- .page7-elem:hover .over{
+}
+
+.page7-elem:hover .over {
   transform: translateY(0);
+  /* display: initial; */
   opacity: 1;
- }
- .page7-elem:hover{
-  border-top: 1px solid #dadada;
- }
+}
+
+.page7-elem:hover {
+  border-top: 2px solid #fff;
+}
+
+summary::marker {
+  content: "";
+}
+
+.uiux {
+  border-top: 1px solid #333;
+  padding: 3vh 0;
+}
+
+.product {
+  padding: 3vh 0;
+
+  border-top: 1px solid #333;
+}
